@@ -442,7 +442,7 @@ with st.container():
         st.subheader("Written by Isaac Sarfo")
         st.write("[Follow for More>](https://web.facebook.com/share/p/d8N1aDBMEaXJS9Xn/)")
         st.write("Phone:0536362249")
-        st.subheader("Thanks For Vising")
+        st.subheader("Thanks For Visiting")
 
 st.markdown("""
   <style>
