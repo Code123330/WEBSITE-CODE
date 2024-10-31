@@ -2,9 +2,7 @@ from PIL import Image
 import requests
 import streamlit as st
 import streamlit as st
-from htbuilder import HtmlElement, div, ul, li, br, hr, a, p, img, styles, classes, fonts
-from htbuilder.units import percent, px
-from htbuilder.funcs import rgba, rgb
+
 
 
 st.set_page_config(page_title="CodeBreaker Webpage", page_icon="tada:", layout="wide")
@@ -18,6 +16,7 @@ img_form=Image.open("F:\WEBSITE-CODE\Images\FB_IMG_16434493788513508.jpg")
 imgw_form=Image.open("F:\WEBSITE-CODE\Images\FB_IMG_16434070358684565.jpg")
 imgh_form=Image.open("F:\WEBSITE-CODE\Images\classroom.jpg")
 imagk_form=Image.open("F:\WEBSITE-CODE\Images\My teen.jpg")
+imgd_form=Image.open("F:\WEBSITE-CODE\Images\codeb.jpg")
 
 #--HEADEER SECTION--
 with st.container():
@@ -433,23 +432,26 @@ def layout(*args):
     st.markdown(str(foot), unsafe_allow_html=True)
 
 
-def footer():
-    myargs = [
-        "Made in ",
-        image('https://avatars3.githubusercontent.com/u/45109972?s=400&v=4',
-              width=px(25), height=px(25)),
-        " with ❤️ by ",
-        link("https://web.facebook.com/share/p/tuCkteUKAz2M5TP5/", "@sarfoisaac072"),
-        br(),
-        link("https://buymeacoffee.com/Code Breaker", image('https://i.imgur.com/thJhzOO.png')),
-    ]
-    layout(*myargs)
+with st.container():
+    st.write("--") 
+    st.subheader("Conclusion")
+    up_column, down_column=st.columns(2)
+    with up_column:
+        st.image(imgd_form, width=150)
+    with down_column:
+        st.subheader("Written by Isaac Sarfo")
+        st.write("[Follow for More>](https://web.facebook.com/share/p/d8N1aDBMEaXJS9Xn/)")
+        st.write("Phone:0536362249")
+        st.subheader("Thanks For Vising")
 
-
-if __name__ == "__main__":
-    footer()
-    
-
+st.markdown("""
+  <style>
+    // this is for all img elements in the Streamlit div class nesting a img
+    .css-1v0mbdj > img{
+      border-radius: 50%;
+    }
+  </style>
+""", unsafe_allow_html=True)
 
 
 

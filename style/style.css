@@ -18,6 +18,11 @@ button[type=submit] {
     cursor: pointer;
 }
 
+<div class="circle-image">
+        <img src="codeb.jpg" alt="My Rectangular Image">
+    </div>
+
+
 
 /* Hide streamlit Branding */
 #Mainmenu {visibility: hidden;}
