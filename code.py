@@ -10,10 +10,10 @@ st.set_page_config(page_title="CodeBreaker Webpage", page_icon="tada:", layout="
 
 
 #--LOAD ASSETS--
-imgx_form=Image.open("Images/Mada.jpg")
-imgf_form=Image.open("Images/Bleach.jpg")
-img_form=Image.open("Images/Hashira.jpg")
-imgw_form=Image.open("Images/Demon.jpg")
+imgx_form=Image.open("Images\Mada.jpg")
+imgf_form=Image.open("Images\Bleach.jpg")
+img_form=Image.open("Images\Hashira.jpg")
+imgw_form=Image.open("Images\Demon.jpg")
 imgh_form=Image.open("Images\classroom.jpg")
 imagk_form=Image.open("Images\My teen.jpg")
 imgd_form=Image.open("Images\codeb.jpg")
