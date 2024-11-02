@@ -10,7 +10,7 @@ st.set_page_config(page_title="CodeBreaker Webpage", page_icon="tada:", layout="
 
 
 #--LOAD ASSETS--
-imgx_form=Image.open("F:\WEBSITE-CODE\Images\Madara.jpg")
+imgx_form=Image.open("F:\WEBSITE-CODE\Images\WhatsApp Image 2024-10-29 at 18.36.45_f5f2aa78.jpg")
 imgf_form=Image.open("F:\WEBSITE-CODE\Images\Bleach.jpg")
 img_form=Image.open("F:\WEBSITE-CODE\Images\FB_IMG_16434493788513508.jpg")
 imgw_form=Image.open("F:\WEBSITE-CODE\Images\FB_IMG_16434070358684565.jpg")
