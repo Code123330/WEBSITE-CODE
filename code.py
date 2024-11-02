@@ -10,19 +10,19 @@ st.set_page_config(page_title="CodeBreaker Webpage", page_icon="tada:", layout="
 
 
 #--LOAD ASSETS--
-imgx_form=Image.open("F:\WEBSITE-CODE\Images\WhatsApp Image 2024-10-29 at 18.36.45_f5f2aa78.jpg")
-imgf_form=Image.open("F:\WEBSITE-CODE\Images\Bleach.jpg")
-img_form=Image.open("F:\WEBSITE-CODE\Images\FB_IMG_16434493788513508.jpg")
-imgw_form=Image.open("F:\WEBSITE-CODE\Images\FB_IMG_16434070358684565.jpg")
-imgh_form=Image.open("F:\WEBSITE-CODE\Images\classroom.jpg")
-imagk_form=Image.open("F:\WEBSITE-CODE\Images\My teen.jpg")
-imgd_form=Image.open("F:\WEBSITE-CODE\Images\codeb.jpg")
+imgx_form=Image.open("Images/Mada.jpg")
+imgf_form=Image.open("Images/Bleach.jpg")
+img_form=Image.open("Images/Hashira.jpg")
+imgw_form=Image.open("Images/Demon.jpg")
+imgh_form=Image.open("Images\classroom.jpg")
+imagk_form=Image.open("Images\My teen.jpg")
+imgd_form=Image.open("Images\codeb.jpg")
 
 #--HEADEER SECTION--
 with st.container():
     st.subheader("Hi, I am Code Breaker :wave:")
     st.title("Anime Inspirational Quotes")
-    st.write("This site consist of anime inspirational quote")
+    st.subheader("This site consist of anime inspirational quote")
     
 #--QUOTES SECTION--
 with st.container():
